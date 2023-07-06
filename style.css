@@ -25,7 +25,7 @@ header{
     background-color: #424141;
 }
 .heading{
-    padding: 10px 20px;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -150,7 +150,7 @@ padding-right: 20px;
 /* services area */
 
 .services{
-    height: 60vh;
+    height: 75vh;
     background-color: #202020;
     display: flex;
     flex-direction: column;
@@ -180,6 +180,10 @@ padding-right: 20px;
     box-shadow:4px 2px 105px #808080;
     border-radius: 10px;
 }
+.services .s_items div img{
+    max-width: 100px;
+}
+
 .services .s_items div h1{
     font-size: 25px;
     font-weight: 500;
