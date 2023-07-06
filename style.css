@@ -54,6 +54,7 @@ padding-right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(images/background.png);
 }
 .banner .container{
     display: flex;
@@ -117,15 +118,16 @@ padding-right: 20px;
 }
 .about .container .a_left{
     width: 50%;
+    padding-left: 10%;
 }
 .about .container .a_left img{
     max-width: 500px;
-    height: 400px;
+    max-height: 300px;
 }
 
 .about .container .a_right{
     width: 50%;
-    text-align: right;
+    padding-left: 20%;
 }
 .about .container .a_right h1{
     font-size: 35px;
@@ -137,5 +139,51 @@ padding-right: 20px;
     font-size: 18px;
     font-weight: 400;
     color: #202020;
+    margin-bottom: 20px;
+}
+
+/* services area */
+
+.services{
+    height: 60vh;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-image: url(images/background.png);
+    padding-top: 50px;
+}
+.services h1{
+    
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.services .s_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.services .s_items div{
+    background-color: #2020206c;
+    text-align: center;
+    padding:40px 10px;
+    max-width: 300px;
+    border: 1px solid #808080;
+    box-shadow:4px 2px 105px #808080;
+    border-radius: 10px;
+}
+.services .s_items div h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.services .s_items div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
     margin-bottom: 20px;
 }
