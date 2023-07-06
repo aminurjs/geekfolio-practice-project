@@ -1,0 +1,93 @@
+*{
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container_fluid{
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    max-width: 100%;
+}
+
+/* Header style */
+
+header{
+    background-color: #424141;
+}
+.heading{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    width: 30%;
+}
+header .logo img{
+    max-width: 200px;
+}
+.menu{
+width: 70%;
+text-align: right;
+padding-right: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+}
+.menu ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Bannar Area */
+.banner{
+    height: 100vh;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.banner .container .h_left{
+    width: 50%;
+}
+.banner .container .h_left h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner .container .h_left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner .container .h_left .button_1{
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px 35px;
+    border-radius: 3px;
+    border: none;
+}
+.banner .container .h_right{
+    width: 50%;
+    text-align: right;
+}
+.banner .container .h_right img{
+    max-width: 500px;
+}
